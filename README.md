@@ -5,7 +5,7 @@ The system processes images, videos, and live camera feeds to detect people and 
 
 ## Project Overview
 
-This project is part of a Computer Vision course and industry project. The goal is to build a lightweight system that can run on a Raspberry Pi and automatically count the number of people entering and exiting an area.
+This project is part of  Computer Vision and the goal is to build a lightweight system that can run on a Raspberry Pi and automatically count the number of people entering and exiting an area.
 
 ## Tools & Technologies
 
@@ -13,13 +13,11 @@ This project is part of a Computer Vision course and industry project. The goal 
 * OpenCV
 * NumPy
 * Raspberry Pi
-* Laptop / Pi Camera
+* Camera
 
 ## Learning Stages
 
 ### 1. Image Processing
-
-Basic operations on images using OpenCV.
 
 * Read and display images
 * Convert to grayscale
@@ -29,14 +27,10 @@ Basic operations on images using OpenCV.
 
 ### 2. Object Detection
 
-Detect people in images using computer vision models.
-
 * Bounding boxes for detected people
 * Human detection using OpenCV / lightweight models
 
 ### 3. Video Processing
-
-Process video frame-by-frame.
 
 * Read video files
 * Apply detection on each frame
@@ -44,18 +38,15 @@ Process video frame-by-frame.
 
 ### 4. Real-Time Camera Detection
 
-Use webcam or Pi camera for live detection.
-
 * Capture live frames
 * Detect humans in real time
 
 ### 5. People Counting
 
-Count people entering and exiting using a virtual line.
-
 * Track detected people
 * Detect line crossing direction
 * Update entry and exit counters
+  
 
 ## Basic Pipeline
 
